@@ -12,9 +12,9 @@ class Appointment
     @@all << self
   end
 
-  def patient
-    Patient.all.select { |patient| patient.appointment = self  }
-  end
+  # def patient
+  #   Patient.all.select { |patient| patient.appointment = self  }
+  # end
 
   def self.all
     @@all
