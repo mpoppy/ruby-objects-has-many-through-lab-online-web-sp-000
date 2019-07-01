@@ -13,7 +13,7 @@ class Appointment
   end
 
   def patient
-    Patient.new_appointment.select{|appointment| appointment.patient}
+    Patient.all.select{|appointment| appointment.patient}
   end
 
   def self.all
