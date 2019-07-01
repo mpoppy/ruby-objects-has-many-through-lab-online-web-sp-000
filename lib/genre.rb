@@ -15,7 +15,7 @@ class Genre
   end
 
   def artists #has many artists through songs
-    songs.all.select{|artist| song.genre = self }
+    songs.select{|song| song.genre = self }
   end
 
   def self.all
