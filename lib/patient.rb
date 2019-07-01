@@ -1,6 +1,8 @@
 
 class patient
 
+  attr_accessor :apointmnets
+
   @@all = []
 
   def initialize(name)
