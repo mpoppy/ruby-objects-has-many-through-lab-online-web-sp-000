@@ -19,7 +19,7 @@ class Doctor
 
   def patients
     # @appointments.select { |appointment| appointment.patient }
-    Patient.all.select do |patient|
+    Appointment.all.select do |patient|
       patient.doctor == self
     end
   end
