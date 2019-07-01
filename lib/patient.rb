@@ -1,6 +1,8 @@
 
 class patient
 
+  @@all = []
+
   def initialize(name)
     @name = name
     @@all << self
