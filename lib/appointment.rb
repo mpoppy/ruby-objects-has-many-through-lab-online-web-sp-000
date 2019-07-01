@@ -12,10 +12,6 @@ class Appointment
     @@all << self
   end
 
-  def patient
-    Patient.all.select{|appointment| appointment.patient}
-  end
-
   def self.all
     @@all
   end
