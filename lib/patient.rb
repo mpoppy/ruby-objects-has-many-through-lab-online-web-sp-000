@@ -2,6 +2,7 @@
 class patient
 
   attr_accessor :apointmnets
+  attr_reader :name
 
   @@all = []
 
