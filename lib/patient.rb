@@ -1,5 +1,5 @@
 
-class patient
+class Patient
 
   attr_accessor :apointmnets
   attr_reader :name
