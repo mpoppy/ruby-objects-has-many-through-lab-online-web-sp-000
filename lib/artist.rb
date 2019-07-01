@@ -17,6 +17,10 @@ class Artist
     song
   end
 
+  def genres
+
+  end
+
   def self.all
     @@all
   end
