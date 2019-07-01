@@ -18,7 +18,8 @@ class Doctor
   end
 
   def patients
-    @appointments.select { |appointment| appointment.patient }
+    @appointments.select { |appointment| appointment.patient.uniq }
+
   end
 
   def self.all
