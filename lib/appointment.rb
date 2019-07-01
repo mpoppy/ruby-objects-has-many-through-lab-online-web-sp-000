@@ -14,6 +14,7 @@ class Appointment
 
   def patient
     Patient.all.select { |patient| patient.appointment = self  }
+    Song.all.select{|song| song.genre = self}
   end
 
   def self.all
