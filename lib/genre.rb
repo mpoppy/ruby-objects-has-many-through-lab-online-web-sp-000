@@ -10,6 +10,10 @@ class Genre
     @@all << self
   end
 
+  def songs
+    
+  end
+
   def artists
 
   end
